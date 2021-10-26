@@ -1,0 +1,16 @@
+name: forecast
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - sphinx
+  - pip
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - fbprophet
+  - pip:
+    - jupyter-book
+    - pyppeteer
+    - python-dotenv
+    - seaborn

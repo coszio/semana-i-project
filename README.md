@@ -29,17 +29,7 @@ making predictions based on past and present data.
 There are two ways that you can do this:
 
 1. Opportunity 1 - For a given time window say 7 days be predict the ‘composite demand’ or total number of ‘piezas’.   
-2. Opportunity 2 - For a given time window say 7 days be able to predict the demand for any SKU.
-
-### Becoming specialized
-
-Everyone will load the data, transform it, run a model and visualize the results.
-You do not have to do this with equal emphesis though.  If you want focus on a
-specific area of data science here are some suggestions.
-
-* **Data Engineer track** - Build a data pipeline, create a feature store, use Kedro and Docker to organize
-* **ML track** - Try to solve opportunity 2, use a method that will allow SHAP
-* **Data Translator track** - Focus on visualization and interpretation of results (build a dashboard with plotly dash)
+2. Opportunity 2 - For a given time window say 7 days be able to predict the demand for some number of SKUs (e.g. 10)
 
 ### Getting started
 
@@ -47,6 +37,26 @@ specific area of data science here are some suggestions.
 
 ```bash
 ~$ git clone https://github.com/neoris-ai/semana-i-project.git
+```
+
+2. setup a conda python environment (optional)
+
+#### To build the environment
+
+```bash
+  ~$ conda env create -f environment.yml
+```
+
+#### To activate the Python environment
+
+```bash
+  ~$ conda activate forecast  
+```
+
+#### To de-activate the Python environment
+
+```bash
+  ~$ conda deactivate
 ```
 
 Now you are ready to go.
